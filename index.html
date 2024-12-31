@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>x Tugas Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="color: #fd7e14; font-weight: bold;">ADIB NUR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item align-self-center">
+            <button class="btn">Learn more</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+  <!-- jumbotron -->
+  <div class="jumbotron container" id="jumbotron">
+    <div class="row align-items-center d-flex flex-row-reverse">
+      <div class="col col-12 col-sm-12 col-lg-6 text-center">
+        <img src="img/poto.jpg" class="img-fluid img-thumbnail mb-4" alt="">
+      </div>
+      <div class="col col-12 col-sm-12 col-lg-6 text-center text-lg-start">
+        <h5>Hi I am</h5>
+        <h5 class="orange">Adib Nur</h5>
+        <h1 style="line-height: 4px; margin-top: 30px;">Web</h1>
+        <h1 style="margin-left: 60px;">Developer</h1>
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- akhir jumbotron -->
+
+  <!-- about me -->
+  <div class="container" id="about">
+    <h1 class="text-center mt-5"><strong>About Me</strong></h1>
+    <p class="lead text-center mx-auto">This is a simple hero unit, a simple jumbotron-style component for calling extra
+      attention to featured content or information. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row text-center g-4">
+      <div class="row g-4">
+        <div class="text-start col-md-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-person-fill"
+            viewBox="0 0 16 16" style="color: #fd7e14; margin-bottom: -90px">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+          </svg>
+          <h2 class="text-center">Full Name :</h2>
+          <p class="text-center">Adib Nur</p>
+        </div>
+        <div class="text-start col-md-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-book-fill"
+            viewBox="0 0 16 16" style="color: #fd7e14; margin-bottom: -90px">
+            <path
+              d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+          </svg>
+          <h2 class="text-center">Education :</h2>
+          <p class="text-center">S1 Sistem informasi</p>
+        </div>
+        <div class="text-start col-md-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+            class="bi bi-suitcase-lg-fill" viewBox="0 0 16 16" style="color: #fd7e14; margin-bottom: -90px">
+            <path
+              d="M7 0a2 2 0 0 0-2 2H1.5A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14H2a.5.5 0 0 0 1 0h10a.5.5 0 0 0 1 0h.5a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2H11a2 2 0 0 0-2-2zM6 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zM3 13V3h1v10zm9 0V3h1v10z" />
+          </svg>
+          <h2 class="text-center">Pekerjaan :</h2>
+          <p class="text-center">Front end</p>
+        </div>
+        <div class="text-start col-md-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+            class="bi bi-person-badge-fill" viewBox="0 0 16 16" style="color: #fd7e14; margin-bottom: -90px">
+            <path
+              d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1z" />
+          </svg>
+          <h2 class="text-center">Contact :</h2>
+          <p class="text-center">adibnur123@gmail.com</p>
+        </div>
+        <div class="text-start col-md-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+            class="bi bi-collection-play-fill" viewBox="0 0 16 16" style="color: #fd7e14; margin-bottom: -90px">
+            <path
+              d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm6.258-6.437a.5.5 0 0 1 .507.013l4 2.5a.5.5 0 0 1 0 .848l-4 2.5A.5.5 0 0 1 6 12V7a.5.5 0 0 1 .258-.437" />
+          </svg>
+          <h2 class="text-center">Hobi :</h2>
+          <p class="text-center">Play Music</p>
+        </div>
+        <div class="text-start col-md-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-cursor-text"
+            viewBox="0 0 16 16" style="color: #fd7e14; margin-bottom: -90px">
+            <path
+              d="M5 2a.5.5 0 0 1 .5-.5c.862 0 1.573.287 2.06.566.174.099.321.198.44.286.119-.088.266-.187.44-.286A4.17 4.17 0 0 1 10.5 1.5a.5.5 0 0 1 0 1c-.638 0-1.177.213-1.564.434a3.5 3.5 0 0 0-.436.294V7.5H9a.5.5 0 0 1 0 1h-.5v4.272c.1.08.248.187.436.294.387.221.926.434 1.564.434a.5.5 0 0 1 0 1 4.17 4.17 0 0 1-2.06-.566A5 5 0 0 1 8 13.65a5 5 0 0 1-.44.285 4.17 4.17 0 0 1-2.06.566.5.5 0 0 1 0-1c.638 0 1.177-.213 1.564-.434.188-.107.335-.214.436-.294V8.5H7a.5.5 0 0 1 0-1h.5V3.228a3.5 3.5 0 0 0-.436-.294A3.17 3.17 0 0 0 5.5 2.5.5.5 0 0 1 5 2m2.648 10.645" />
+          </svg>
+          <h2 class="text-center">Alamat :</h2>
+          <p class="text-center">Medan</p>
+        </div>
+      </div>
+    </div>
+    <!-- akhir about me -->
+
+    <!-- my project -->
+    <div class="container my-5" id="project">
+      <h1 class="text-center"><strong>My Projects</strong></h1>
+      <div class="row g-4 mt-3">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/project1.jpeg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/project2.jpeg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/project3.jpeg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir my project -->
+
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide mb-5">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" style="height: 550px;">
+        <div class="carousel-item active">
+          <h5 class="text-center">Project 1</h5>
+          <p class="text-center">Some representative placeholder content for the first slide.</p>
+          <img src="img/project1.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+            <h5 class="text-center">Project 2</h5>
+            <p class="text-center">Some representative placeholder content for the second slide.</p>
+          <img src="img/project2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h5 class="text-center">Project 3</h5>
+          <p class="text-center">Some representative placeholder content for the third slide.</p>
+          <img src="img/project3.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir carousel -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Who I am ?</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Halo, saya Adib Nur, seorang web developer dengan pengalaman dalam pengembangan aplikasi dan situs web menggunakan teknologi seperti HTML, CSS, dan JavaScript. Saya fokus pada menciptakan solusi yang efisien dan pengalaman pengguna yang menyenangkan. Selalu bersemangat untuk belajar dan menghadapi tantangan baru dalam dunia teknologi web.
+            <br>
+            Jika Anda membutuhkan seorang web developer, saya siap membantu!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir modal -->
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+}
+
+nav ul li a:hover {
+    background-color: #f16c00;
+    color: white;
+}
+
+nav ul li a {
+    border-radius: 10px;;
+}
+
+button.btn {
+    background-color: #fd7e14;
+    color: black;
+    margin-left: 5px;
+}
+
+nav ul li button.btn:hover {
+    background-color: #f16c00;
+    color: white;
+}
+
+.jumbotron {
+    margin-top: 60px;
+}
+
+.jumbotron img {
+    border-radius: 50%;
+    width: 400px;
+    border: 5px solid #f4ac72;
+    transition: all 0.5s ease;
+}
+
+.jumbotron img:hover {
+    border: 5px solid #fd7e14;
+}
+
+.orange {
+    color: #fd7e14;
+}
+
+.jumbotron button.btn {
+    background-color: #fd7e14;
+    color: black;
+    border: none;
+}
+
+.jumbotron button.btn:hover {
+    background-color: #f16c00;
+    color: white;
+}
