@@ -28,7 +28,7 @@ nav ul li button.btn:hover {
 
 .jumbotron img {
     border-radius: 50%;
-    width: 30vw;
+    width: 35vw;
     border: 5px solid #f4ac72;
     transition: all 0.5s ease;
 }
